@@ -2,4 +2,5 @@
 -- e limita as linhas
 SELECT *
 FROM produtos
-LIMIT 5;
+WHERE DescCateogriaProduto = 'rpg'
+ORDER BY DescProduto DESC
